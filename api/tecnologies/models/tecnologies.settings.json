@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tecnologies",
+  "info": {
+    "name": "Tecnologie",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "projects": {
+      "via": "tecnologies",
+      "collection": "projects",
+      "dominant": true
+    }
+  }
+}
