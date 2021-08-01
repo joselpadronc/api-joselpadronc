@@ -16,25 +16,16 @@
       "type": "string"
     },
     "link_code": {
-      "type": "text"
+      "type": "string"
     },
     "link": {
-      "type": "text"
-    },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "type": "string"
     },
     "technologies": {
       "collection": "technologie"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
